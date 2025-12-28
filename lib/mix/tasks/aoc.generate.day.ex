@@ -123,6 +123,6 @@ defmodule Mix.Tasks.Aoc.Generate.Day do
 
   defp advent_year() do
     config = Application.get_env(:aoc, :input)
-    Keyword.get(config, :year, 2024)
+    Keyword.get(config, :year, 2025)
   end
 end
