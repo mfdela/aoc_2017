@@ -21,13 +21,6 @@ defmodule Aoc.Day10 do
     |> Enum.concat([17, 31, 73, 47, 23])
     |> sparse_hash(list)
     |> dense_hash()
-    |> IO.inspect()
-
-    # |> hash(list)
-    # |> Enum.take(16)
-    # |> Enum.map(&Integer.to_string(&1, 16))
-    # |> Enum.map(&String.pad_leading(&1, 2, "0"))
-    # |> Enum.join("")
   end
 
   def parse(input) do
