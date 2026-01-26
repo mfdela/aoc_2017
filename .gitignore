@@ -32,7 +32,9 @@ aoc_2017-*.tar
 
 # Language server
 .elixir_ls/
+.expert/
 
 # Beam files
 *.beam
+
 
